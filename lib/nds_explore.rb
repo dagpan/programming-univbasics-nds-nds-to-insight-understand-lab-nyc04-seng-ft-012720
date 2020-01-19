@@ -23,7 +23,8 @@ def print_first_directors_movie_titles
   directors_database
   column = 0 
   while column < directors_database[0].length do
-        puts "#{directors_database[0][0][column][0]}\n"
+        puts directors_database[0][0][column][0]
+        puts "\n"
         column += 1
   end
 end
