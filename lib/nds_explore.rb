@@ -20,7 +20,7 @@ def print_first_directors_movie_titles(nds)
   while row < nds.length
        column = 0 
        while column < nds[row].length
-            
-
-
+           nds[0] = director
+#           puts "  #{nds[0]  "     
+           puts director
 end
