@@ -23,7 +23,7 @@ def print_first_directors_movie_titles
   directors_database
   column = 0 
   while column < directors_database[0].length do
-        puts directors_database[name:][movies:][column][title:]
+        puts directors_database[0][1][column][title:]
         puts "\n"
         column += 1
   end
