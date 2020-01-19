@@ -15,8 +15,9 @@ def pretty_print_nds(nds)
   pp nds
 end
 
-directors_database
-def print_first_directors_movie_titles(nds)
+
+def print_first_directors_movie_titles
+  directors_database
   row = 0
   while row < nds.length do
       column = 0 
