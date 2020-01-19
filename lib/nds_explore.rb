@@ -25,7 +25,7 @@ def print_first_directors_movie_titles
   while column < directors_database[0][:movies].length do
         puts directors_database[0][:movies][column][:title]
         puts " \n"
-        puts "HAHA\n"
+#        puts "HAHA\n"
         column += 1
   end
 end
