@@ -23,4 +23,8 @@ def print_first_directors_movie_titles(nds)
            nds[0] = director
 #           puts "  #{nds[0]  "     
            puts director
+           column += 1
+       end
+       row += 1
+  end
 end
