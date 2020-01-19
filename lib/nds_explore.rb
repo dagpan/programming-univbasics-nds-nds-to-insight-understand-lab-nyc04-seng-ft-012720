@@ -14,6 +14,7 @@ def pretty_print_nds(nds)
   # Change the code below to pretty print the nds with pp
   pp nds
 end
+
 directors_database
 def print_first_directors_movie_titles(nds)
   row = 0
